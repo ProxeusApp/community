@@ -1,18 +1,19 @@
 Proxeus Association
 ===
 
-Proxeus has now transitioned into a community-run project (see _[Every Ending is a new Beginning](https://www.proxeus.com/blog-posts/every-ending-is-a-new-beginning)_).
+In this repository we would like to develop connections with other users and developers of Proxeus:
 
-We are a group of people passionate about open source and this software project, who have made it our mission to maintain and develop the Proxeus framework and to foster its adoption within our possibilities (see _[Introducing Proxeus Open Source Association](https://www.proxeus.com/blog-posts/introducing-proxeus-open-source-association)_).
+- Make sure to review our [Contributor's Guide](docs/contributing.md) first.
+- Use the [Discussion Forum](https://github.com/ProxeusApp/community/discussions) here to ask questions, and share ideas for future development and use cases.
+- Use the [Core Issues](https://github.com/ProxeusApp/proxeus-core/issues) to browse & submit bug reports.
+- See the [User Handbook](handbook/) and [Developer Documentation](docs/) for a knowledge base updated with frequently asked questions and guidelines.
 
-In this repository we would like to develop connections with the community around this project. You can already use the [Issues page](https://github.com/ProxeusApp/community/issues) (at least, until we have a more advanced forum) to ask questions, raise concerns, share ideas for the future. In the [Wiki](https://github.com/ProxeusApp/community/wiki), we will keep a knowledge base updated with frequently asked questions.
+# About us
 
-## Status as of September 2020
+Proxeus has now transitioned into a community-run project (see _[Every Ending is a new Beginning](https://www.proxeus.com/blog-posts/every-ending-is-a-new-beginning)_), run by a group of people passionate about open source and this software project in particular. We have made it our mission to maintain and develop the Proxeus framework and to foster its adoption within our possibilities and an openly governed community (see _[Introducing Proxeus Open Source Association](https://www.proxeus.com/blog-posts/introducing-proxeus-open-source-association)_).
 
-Our association was founded in the summer and we are still in the process of organizing start up activities (e.g. community outreach, hackathon participation, presentations).
+The Proxeus Association is running various activities, such community outreach, hackathon participation, presentations, that are having to do with the code components. Please note that we cannot answer questions related to the token generation event of the Proxeus token (XES): token holders should direct such questions to Proxeus Anstalt.
 
-Please note that we cannot answer questions related to the token generation event or the Proxeus token. Token buyers should direct such questions to Proxeus Anstalt.
+We are also setting up a new DAO to involve software users as well as the wider community in the governance of the association's activities. It may be possible to use tokens to vote for the development of specific new features in the future. For now we are coordinating the development work using open access platforms like GitHub.
 
-We are actively investigating the setup of a DAO to involve the token holders in the governance of the association's activities. For example, tokens could be used to vote for the development of specific new features. The association would then be in a good position to coordinate the ensuing development work using open source platforms such as GitHub.
-
-We are happy to answer your questions about the Proxeus framework itself to the best of our knowledge by email to `association@proxeus.org` or on the [Issues page](https://github.com/ProxeusApp/community/issues).
+We are happy to answer your questions to the best of our knowledge in the forum, or by email to `association@proxeus.org`
