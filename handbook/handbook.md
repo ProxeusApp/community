@@ -185,116 +185,18 @@ In the account settings, you can:
 
 
 
-======
-
-4 User View
-===========
-
-4.1 Documents
--------------
-
-In the “Documents” view, you can start new workflows aiming to generate one or several documents. The “Create document” button in the top left corner takes you to the list of available workflows. If a price has been set by the corresponding Creator, the workflow will be charged for in XES.
-
-
-
-**Important:** Before you start a workflow, it is strongly recommended that you connect an Ethereum wallet with your account. You can do this by opening your profile via the icon in the top right corner.
-
-
-
-Once started, you can pause or leave a workflow at any time. All progress will be saved. The paused workflow can be found in your “Documents” tab, marked as “Draft”.  
-
-
-Drafts can be deleted. Workflows purchased will be accessible until you have fully completed them, so deleting a draft will not void your purchase.
-
-
-
-Once you have completed a workflow, the “Draft” label will disappear. You can now view and download your finished document(s).
-
-### 4.1.1 Downloads
-
-You can download your finalized documents as PDFs or Microsoft Word files (only PDFs can be verified on the blockchain for authenticity). Simply click on the file to display the available actions.
-
-
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_c6dbc4f60fe085d4.png)
-
-### 4.1.2 Requesting signatures
-
-Once you have completed a workflow and generated a document, you can ask others to sign it. Examples of use cases involving signatures for confirming documents, voting or certification are available on the website. Signatures are created by a user’s Ethereum identity and will be publicly visible on the blockchain. You can view signatures on a Proxeus document using the verification interface.
-
-
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_b0d27088acfc9ea1.png)
-
-_Your document, opened via “Documents” tab_
-
-
-
-Click on the document to see all available actions and find the signature requests on the right:
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_f29c3f30ee6d87a2.png)
-
-_The available actions for your documents: view in browser, download as a PDF or Word file, request signatures_
-
-
-
-The signature request will appear in the interface of the corresponding user. If they provided an email address, an email notification will be sent. Once they have signed, you will also be notified_._
-
-4.2 Verification
-----------------
-
-The authenticity of documents which were created through the platform can be verified through a drag & drop interface. The interface compares the hash value of your document with the list of registered documents on the smart contract and displays a result, showing whether a document has been previously registered or signed.
-
-
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_ad8c3d09bed27d94.png)
-
-_A successful verification - this file has been registered via Proxeus_
-
-
-
-The same verification tool can also be accessed on the public landing page of your platform and via the path /validation - i.e. xyz.com/validation
-
-4.3 Signature Requests
-----------------------
-
-If another user requests your signature, you will find their request in the “Signature Requests” tab. If you provided an email address, you will also receive an email notification. You can view the document online or download it as a PDF or Word file for further inspection. You can then sign the document or reject the request.
-
-
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_d007d01a1f3c3208.png)
-
-_An open signature request_
-
-
-
-For signatures, you are required to have an Ethereum account linked to your profile and to be logged into this account. As the signature has to be added to a smart contract on the Ethereum blockchain, you will have to pay a small transaction fee. A MetaMask transaction request will pop up as you click “Sign”.
-
-4.4 Data
---------
-
-User data, Templates, Forms, Workflows, Users, Translations and Settings can be imported and exported. The number of elements that can be imported/exported depends on the user role.
-
-Data is imported with a “best effort” approach, meaning that errors will not block the rest of the import. Imported entries will be marked in the application.
 
 
 
 
-======
-
-
-
-
-======
-
-5 Admin Panel
+4 Admin Panel
 =============
 
 The Admin Panel is the backstage area of the platform. It can only be accessed by Operators and Creators, not by Consumers. It consists of three parts: “Workflows”, “Templates” and “Forms”. The “Share” and “Export” features will also be explained in this section.
 
 
 
-5.1 Quick Start Guide
+4.1 Quick Start Guide
 ---------------------
 
 The following description is an example process for creating a workflow on the Proxeus platform:
@@ -324,99 +226,100 @@ This should give you an idea how to start things off. You’ll get the hang of i
 
 
 ------
+4.2 Forms
+---------
 
-5.2 Workflows
--------------
+Forms are used to collect user input throughout a workflow process. The variables defined in the components will be used to reflect the user input on a document template.
 
-Workflows are built by connecting templates, forms and other workflow elements. Create your templates and forms before you start building a workflow.
-
-### 5.2.1 Creating a Workflow
+### 4.2.1 Create a Form
 
 To create a new workflow, click on “Workflows” in the navigation panel and click on the “Create new” button.
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_5481d85d82acc650.png)
+![](Proxeus%20-%20The%20Complete%20Handbook_html_ed735f78a5c0be77.png)
 
 
 
-Enter a “Name” for your new workflow. Optionally, you can add further information in the “Details” field. Click on “✓” and your workflow is created. Click on the newly created workflow to access it.
+Enter a “Name” for your new form. Optionally, you can add further information in the “Details” field. Click on “✓” and your form is created. Click on the newly created form to access the form editor.
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_7139fb3de33c357a.png)
-
-
-
-When building a workflow, the templates have to be inserted as the first steps, followed by the forms (as shown in the example below). It is also possible to create conditions that split workflows into different paths.
+![](Proxeus%20-%20The%20Complete%20Handbook_html_3f41852b7dfa724d.png)
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_64aa240a167179fa.png)  
-_A simple workflow with one template (pink) and one form (green)_
-
-### 5.2.2 Price
-
-Creators can decide to make a workflow available to users for a fee. A price of 0 means that it can be executed for free. Consumers will be charged the price set in XES on a pay-per-use basis (the purchase grants the right for one complete workflow execution).
+The forms editor is split into two parts. On the left side you’re building your form, on the right side you will find all available form components. Add components to your form by performing a simple drag & drop action.
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_ce291de963f4a5c7.png)
+The basic steps are:
 
-_The workflow settings with the price on the right_
+1.  Drag & drop a component into the form area on the left
 
+2.  Click on it to open its properties and set the name, label etc.
 
+3.  Repeat 1 & 2 until your form is complete
 
-In order to receive payments, the workflow owner must have an Ethereum account linked to their user profile.
-
-### 5.2.3 Publish
-
-Since the sharing of workflows and its elements does not work recursively, the “Publish” function can be used to easily make the workflow executable by other users. This is done by giving read permission (for the workflow and all its elements) to everyone with a “User” role.
-
-Publishing only grants execution rights in the front area of the platform, it does not share anything to be viewed by other Creators in the backend. Publishing can be undone by removing the group permission of the workflow.
-
-### 5.2.4 Condition
-
-Conditions can be used to guide the user through different paths of a workflow, depending on input from a previous form. It requires a basic understanding of JavaScript to customize. New conditions come with default code. For normal usage you may just have to exchange some variables without touching the code in any other way. To add a condition to your workflow, simply drag & drop it onto the canvas and a configuration window will pop up. "someVar" is the “Name” of the form component you want to evaluate, and "someValue" is the “Value”, which is set in the component. "something else" is the other “Value” of the component.
+4.  Activate the “Test” mode on the left to verify the result
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_10299e76126cc024.png)
 
-_A workflow with a condition, sending the user to different forms based on inputs from a previous form_
+![Shape2](Proxeus%20-%20The%20Complete%20Handbook_html_30ebd5a287e6c904.gif)
 
-### 5.2.5 Custom Nodes
-
-Proxeus allows you to develop custom nodes and to make them available to all users to be used in workflows. When adding elements to a workflow, you may encounter custom nodes like this:
+_The two form editor areas: your form (left) and the form component templates (right)_
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_4225235e26b8c178.png)
+![](Proxeus%20-%20The%20Complete%20Handbook_html_8f8c4dee1c7f180e.png)
+
+_A correctly configured component. The name is used as a variable in the ODT Template file._
 
 
 
-You can add custom nodes at any position in the workflow.
+**Important:** Your component names must not include any spaces or special characters.
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_951d02a5e7f5dc31.png)  
-_A custom node at the end of our example workflow_
+### 4.2.2 Workspace
+
+In the default view “Workspace”, the forms are built by dragging & dropping form components onto the canvas. Components include simple fields, radio buttons, checkboxes, and many more.
 
 
 
-### 5.2.6 Sub-workflows
+![](Proxeus%20-%20The%20Complete%20Handbook_html_c9ff17083ce623b0.png)
 
-In Proxeus, you can also build workflows that call other workflows. The main workflow will start normally and then guide the user through the sub-workflow. After the user has completed this sub-workflow or “workflow in a workflow”, they will be brought back to the main workflow.
+### 4.2.3 Action
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_d7693cee8e9aac78.png)  
-_A workflow with a sub-workflow. The user will see form 1A first, then the forms of the sub-workflow and finally form 2A._
+Under Action, the form components can be conditionally linked to each other. This is useful if depending on a form input, more form components should be shown. Simply connect the blue dots of the components.
 
-### 5.2.7 Deleting connections & elements
+![](Proxeus%20-%20The%20Complete%20Handbook_html_f2247b1e55d57403.png)
 
-You can remove connections between workflow elements by clicking on the connection itself and then using the “delete selected” button that appears on top. Removing elements works the same. You can always re-add them afterwards.
+_Demonstration of the action mode: depending on the user’s radio button choice,_ _simple_ _field_ _A or B is shown._
+
+### 4.2.4 Test
+
+In the “Test” tab, the form can be tested live in action without having to switch to the “User View”. Do your components behave as intended? You will find out here.
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_e1ea58a054e536e0.png)  
-_Deleting the connection between the template and the form_
+![](Proxeus%20-%20The%20Complete%20Handbook_html_7c16ff586c91d22.png)
 
-5.3 Templates
+_Demonstration of the Test mode using the “Action__s_ _E__xample__”_ _from above._
+
+
+
+In the footer of the test tab, there is a “Reset” button to re-initialize the form and a “Play” button that activates the validation to check if the form can be finished with your current inputs. Validation errors such as empty required fields will then be displayed.
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_7082734f41d7a205.png)
+
+_The “__F__orm_ _R__eset” and “__F__orm_ _V__alidation” buttons_
+
+
+
+
+
+
+------
+
+4.3 Templates
 -------------
 
 Entries in the “Templates” section are used to upload ODT template files, which were created in a document editor that supports the OpenDocument Text format, the most common being LibreOffice, OpenOffice, and Microsoft Word. The ODT files need to contain the placeholder variables that are defined in your form components.
@@ -425,7 +328,7 @@ Entries in the “Templates” section are used to upload ODT template files, wh
 
 If the platform has multiple active languages, you may upload one version of the template for every language.
 
-### 5.3.1 Creating an ODT Template File
+### 4.3.1 Creating an ODT Template File
 
 Open the document creator of your choice and save the empty file in ODT format on your local machine. Make sure the filename does not contain any special characters.
 
@@ -433,7 +336,7 @@ Open the document creator of your choice and save the empty file in ODT format o
 
 
 
-### 5.3.2 Creating a Template
+### 4.3.2 Creating a Template
 
 Click on “Templates” in the navigation panel and click on the “Create new” button to create a new template.
 
@@ -457,7 +360,7 @@ Click on the newly created template to access it. Drag the ODT file onto the upl
 
 If your ODT file is already complete with all the content and variables needed, click on “Save”. If your ODT file is still empty, do not click on “Save” yet and proceed with transferring variables into the ODT file, which is explained in the next chapter.
 
-### 5.3.3 Templating Assistance
+### 4.3.3 Templating Assistance
 
 The template management view offers you assistance in getting your ODT template file ready, including some useful real-time testing functions on the fly.
 
@@ -507,7 +410,7 @@ In order to test whether the template file you uploaded behaves as desired, a te
 
 
 
-### 5.3.4 Common Formulas
+### 4.3.4 Common Formulas
 
 This section describes the most commonly used formulas that will suffice for many users when creating template files. For more advanced formulas, please refer to section 5.3.5., or, for the full reference, visit [Jtwig](https://github.com/jtwig/book).
 
@@ -557,7 +460,7 @@ To add all the entries from this “Dynamic List” to the document the followin
 
 
 
-This will create a bullet point list (it works with other formatting too):  
+This will create a bullet point list (it works with other formatting too):
 
 
 ![](Proxeus%20-%20The%20Complete%20Handbook_html_d241ff7211167f3a.png)
@@ -666,7 +569,7 @@ false
 *   To check if an optional field has been completed or not (= is empty), use {% if MyValue1 == '' %} TEXT\_IF\_EMPTY {% else %} TEXT\_IF\_NOT\_EMPTY {% endif %}. You can also use {% if MyValue1 != '' %} TEXT\_IF\_NOT\_EMPTY {% endif %}.
 
 
-### 5.3.5 Advanced Formulas
+### 4.3.5 Advanced Formulas
 
 This section describes some useful advanced formulas that might be of interest when creating template files. For the full reference, visit [Jtwig](https://github.com/jtwig/book).
 
@@ -832,100 +735,100 @@ JTWIG
 
 jtwig
 
-5.4 Forms
----------
+4.4 Workflows
+-------------
 
-Forms are used to collect user input throughout a workflow process. The variables defined in the components will be used to reflect the user input on a document template.
+Workflows are built by connecting templates, forms and other workflow elements. Create your templates and forms before you start building a workflow.
 
-### 5.4.1 Create a Form
+### 4.4.1 Creating a Workflow
 
 To create a new workflow, click on “Workflows” in the navigation panel and click on the “Create new” button.
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_ed735f78a5c0be77.png)
+![](Proxeus%20-%20The%20Complete%20Handbook_html_5481d85d82acc650.png)
 
 
 
-Enter a “Name” for your new form. Optionally, you can add further information in the “Details” field. Click on “✓” and your form is created. Click on the newly created form to access the form editor.
+Enter a “Name” for your new workflow. Optionally, you can add further information in the “Details” field. Click on “✓” and your workflow is created. Click on the newly created workflow to access it.
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_3f41852b7dfa724d.png)
-
-
-
-The forms editor is split into two parts. On the left side you’re building your form, on the right side you will find all available form components. Add components to your form by performing a simple drag & drop action.
+![](Proxeus%20-%20The%20Complete%20Handbook_html_7139fb3de33c357a.png)
 
 
 
-The basic steps are:
-
-1.  Drag & drop a component into the form area on the left
-
-2.  Click on it to open its properties and set the name, label etc.
-
-3.  Repeat 1 & 2 until your form is complete
-
-4.  Activate the “Test” mode on the left to verify the result
+When building a workflow, the templates have to be inserted as the first steps, followed by the forms (as shown in the example below). It is also possible to create conditions that split workflows into different paths.
 
 
 
+![](Proxeus%20-%20The%20Complete%20Handbook_html_64aa240a167179fa.png)  
+_A simple workflow with one template (pink) and one form (green)_
 
-![Shape2](Proxeus%20-%20The%20Complete%20Handbook_html_30ebd5a287e6c904.gif)
+### 4.4.2 Price
 
-_The two form editor areas: your form (left) and the form component templates (right)_
-
-
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_8f8c4dee1c7f180e.png)
-
-_A correctly configured component. The name is used as a variable in the ODT Template file._
+Creators can decide to make a workflow available to users for a fee. A price of 0 means that it can be executed for free. Consumers will be charged the price set in XES on a pay-per-use basis (the purchase grants the right for one complete workflow execution).
 
 
 
-**Important:** Your component names must not include any spaces or special characters.
+![](Proxeus%20-%20The%20Complete%20Handbook_html_ce291de963f4a5c7.png)
+
+_The workflow settings with the price on the right_
 
 
 
-### 5.4.2 Workspace
+In order to receive payments, the workflow owner must have an Ethereum account linked to their user profile.
 
-In the default view “Workspace”, the forms are built by dragging & dropping form components onto the canvas. Components include simple fields, radio buttons, checkboxes, and many more.
+### 4.4.3 Publish
 
+Since the sharing of workflows and its elements does not work recursively, the “Publish” function can be used to easily make the workflow executable by other users. This is done by giving read permission (for the workflow and all its elements) to everyone with a “User” role.
 
+Publishing only grants execution rights in the front area of the platform, it does not share anything to be viewed by other Creators in the backend. Publishing can be undone by removing the group permission of the workflow.
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_c9ff17083ce623b0.png)
+### 4.4.4 Condition
 
-### 5.4.3 Action
-
-Under Action, the form components can be conditionally linked to each other. This is useful if depending on a form input, more form components should be shown. Simply connect the blue dots of the components.
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_f2247b1e55d57403.png)
-
-_Demonstration of the action mode: depending on the user’s radio button choice,_ _simple_ _field_ _A or B is shown._
-
-### 5.4.4 Test
-
-In the “Test” tab, the form can be tested live in action without having to switch to the “User View”. Do your components behave as intended? You will find out here.
+Conditions can be used to guide the user through different paths of a workflow, depending on input from a previous form. It requires a basic understanding of JavaScript to customize. New conditions come with default code. For normal usage you may just have to exchange some variables without touching the code in any other way. To add a condition to your workflow, simply drag & drop it onto the canvas and a configuration window will pop up. "someVar" is the “Name” of the form component you want to evaluate, and "someValue" is the “Value”, which is set in the component. "something else" is the other “Value” of the component.
 
 
 
-![](Proxeus%20-%20The%20Complete%20Handbook_html_7c16ff586c91d22.png)
+![](Proxeus%20-%20The%20Complete%20Handbook_html_10299e76126cc024.png)
 
-_Demonstration of the Test mode using the “Action__s_ _E__xample__”_ _from above._
+_A workflow with a condition, sending the user to different forms based on inputs from a previous form_
 
+### 4.4.5 Custom Nodes
 
-
-In the footer of the test tab, there is a “Reset” button to re-initialize the form and a “Play” button that activates the validation to check if the form can be finished with your current inputs. Validation errors such as empty required fields will then be displayed.
-
-![](Proxeus%20-%20The%20Complete%20Handbook_html_7082734f41d7a205.png)
-
-_The “__F__orm_ _R__eset” and “__F__orm_ _V__alidation” buttons_
+Proxeus allows you to develop custom nodes and to make them available to all users to be used in workflows. When adding elements to a workflow, you may encounter custom nodes like this:
 
 
 
+![](Proxeus%20-%20The%20Complete%20Handbook_html_4225235e26b8c178.png)
 
 
 
-------
+You can add custom nodes at any position in the workflow.
 
-5.5 Sharing
+
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_951d02a5e7f5dc31.png)  
+_A custom node at the end of our example workflow_
+
+
+
+### 4.4.6 Sub-workflows
+
+In Proxeus, you can also build workflows that call other workflows. The main workflow will start normally and then guide the user through the sub-workflow. After the user has completed this sub-workflow or “workflow in a workflow”, they will be brought back to the main workflow.
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_d7693cee8e9aac78.png)  
+_A workflow with a sub-workflow. The user will see form 1A first, then the forms of the sub-workflow and finally form 2A._
+
+### 4.4.7 Deleting connections & elements
+
+You can remove connections between workflow elements by clicking on the connection itself and then using the “delete selected” button that appears on top. Removing elements works the same. You can always re-add them afterwards.
+
+
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_e1ea58a054e536e0.png)  
+_Deleting the connection between the template and the form_
+
+
+
+4.5 Sharing
 -----------
 
 The sharing dialog can be found in several places and is therefore explained in this separate subchapter to prevent redundancy.
@@ -942,7 +845,7 @@ All entities such as forms, workflows and templates are protected by permissions
 
 Sharing does not work recursively on Proxeus; access rights can be granted at a fine granularity.
 
-5.6 User Management
+4.6 User Management
 -------------------
 
 Superadmins and Root users can access the user management. They can search through all users, overriding the privacy flag (do not want to be found).
@@ -971,7 +874,7 @@ The user database can be exported completely or selectively. To only export spec
 
 ------
 
-5.7 Internationalization
+4.7 Internationalization
 ------------------------
 
 Operators can access the “Internationalization” page. All titles, labels and texts of the platform can be found and edited.
@@ -990,7 +893,7 @@ Translations can be exported language by language. You can prepare a new languag
 
 
 
-### 5.7.1 Creating multilingual workflows
+### 4.7.1 Creating multilingual workflows
 
 Once the platform has two activated languages, workflows can be made multilingual. There are two possible ways to do so:
 
@@ -1045,7 +948,7 @@ When multiple languages are active, you can upload translated versions of templa
 
 ------
 
-5.8 Data
+4.8 Data
 --------
 
 Exports can either be done under “Data” or under “Workflows”, “Templates” and “Forms”.
@@ -1076,7 +979,7 @@ Under “Workflows”, “Templates” and “Forms”, it is possible to only e
 
 _Using the search function to only export the “Proxeus Form”._
 
-5.9 System Settings
+4.9 System Settings
 -------------------
 
 Operators with the “Root” role can access the “System Settings” page. It is the same page that is also displayed on the “Power Up” screen during the installation of the platform. Please refer to the chapter “Platform Installation” for further information.
@@ -1089,10 +992,99 @@ Changes made to the system settings are effective immediately. You can even swit
 
 **Important:** To avoid unintended results, the testing of System Setting changes on a dedicated testing platform is highly recommended.
 
+5 User View
+===========
+
+5.1 Documents
+-------------
+
+In the “Documents” view, you can start new workflows aiming to generate one or several documents. The “Create document” button in the top left corner takes you to the list of available workflows. If a price has been set by the corresponding Creator, the workflow will be charged for in XES.
 
 
 
-======
+**Important:** Before you start a workflow, it is strongly recommended that you connect an Ethereum wallet with your account. You can do this by opening your profile via the icon in the top right corner.
+
+
+
+Once started, you can pause or leave a workflow at any time. All progress will be saved. The paused workflow can be found in your “Documents” tab, marked as “Draft”.
+
+
+Drafts can be deleted. Workflows purchased will be accessible until you have fully completed them, so deleting a draft will not void your purchase.
+
+
+
+Once you have completed a workflow, the “Draft” label will disappear. You can now view and download your finished document(s).
+
+### 5.1.1 Downloads
+
+You can download your finalized documents as PDFs or Microsoft Word files (only PDFs can be verified on the blockchain for authenticity). Simply click on the file to display the available actions.
+
+
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_c6dbc4f60fe085d4.png)
+
+### 5.1.2 Requesting signatures
+
+Once you have completed a workflow and generated a document, you can ask others to sign it. Examples of use cases involving signatures for confirming documents, voting or certification are available on the website. Signatures are created by a user’s Ethereum identity and will be publicly visible on the blockchain. You can view signatures on a Proxeus document using the verification interface.
+
+
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_b0d27088acfc9ea1.png)
+
+_Your document, opened via “Documents” tab_
+
+
+
+Click on the document to see all available actions and find the signature requests on the right:
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_f29c3f30ee6d87a2.png)
+
+_The available actions for your documents: view in browser, download as a PDF or Word file, request signatures_
+
+
+
+The signature request will appear in the interface of the corresponding user. If they provided an email address, an email notification will be sent. Once they have signed, you will also be notified_._
+
+5.2 Verification
+----------------
+
+The authenticity of documents which were created through the platform can be verified through a drag & drop interface. The interface compares the hash value of your document with the list of registered documents on the smart contract and displays a result, showing whether a document has been previously registered or signed.
+
+
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_ad8c3d09bed27d94.png)
+
+_A successful verification - this file has been registered via Proxeus_
+
+
+
+The same verification tool can also be accessed on the public landing page of your platform and via the path /validation - i.e. xyz.com/validation
+
+5.3 Signature Requests
+----------------------
+
+If another user requests your signature, you will find their request in the “Signature Requests” tab. If you provided an email address, you will also receive an email notification. You can view the document online or download it as a PDF or Word file for further inspection. You can then sign the document or reject the request.
+
+
+
+![](Proxeus%20-%20The%20Complete%20Handbook_html_d007d01a1f3c3208.png)
+
+_An open signature request_
+
+
+
+For signatures, you are required to have an Ethereum account linked to your profile and to be logged into this account. As the signature has to be added to a smart contract on the Ethereum blockchain, you will have to pay a small transaction fee. A MetaMask transaction request will pop up as you click “Sign”.
+
+5.4 Data
+--------
+
+User data, Templates, Forms, Workflows, Users, Translations and Settings can be imported and exported. The number of elements that can be imported/exported depends on the user role.
+
+Data is imported with a “best effort” approach, meaning that errors will not block the rest of the import. Imported entries will be marked in the application.
+
+
+
+
 
 6 UI Guides
 ===========
