@@ -3,10 +3,11 @@ Proxeus Association
 
 In this repository we would like to develop connections with other users and developers of Proxeus:
 
-- Make sure to review our [Contributor's Guide](docs/contributing.md) first.
+
+- See the **[User Handbook](https://github.com/ProxeusApp/community/blob/master/handbook/handbook.md#table-of-contents)** and [Developer Documentation](docs/) for a knowledge base updated with frequently asked questions and guidelines.
 - Use the [Discussion Forum](https://github.com/ProxeusApp/community/discussions) here to ask questions, and share ideas for future development and use cases.
 - Use the [Core Issues](https://github.com/ProxeusApp/proxeus-core/issues) to browse & submit bug reports.
-- See the [User Handbook](handbook/) and [Developer Documentation](docs/) for a knowledge base updated with frequently asked questions and guidelines.
+- Please make sure to review our [Contributor's Guide](docs/contributing.md).
 
 # About us
 
