@@ -1,13 +1,12 @@
 Proxeus Association
 ===
 
-In this repository we would like to develop connections with other users and developers of Proxeus:
+Use this repository to connect with other users and developers of Proxeus:
 
-
-- See the **[User Handbook](https://github.com/ProxeusApp/community/blob/master/handbook/handbook.md#table-of-contents)** and [Developer Documentation](docs/) for a knowledge base updated with frequently asked questions and guidelines.
+- See the **User Handbook** in the [Documentation](https://doc.proxeus.com) for a knowledge base updated with frequently asked questions and guidelines.
 - Use the [Discussion Forum](https://github.com/ProxeusApp/community/discussions) here to ask questions, and share ideas for future development and use cases.
-- Use the [Core Issues](https://github.com/ProxeusApp/proxeus-core/issues) to browse & submit bug reports.
-- Please make sure to review our [Contributor's Guide](docs/contributing.md).
+- Use [Core Issues](https://github.com/ProxeusApp/proxeus-core/issues) or [Node Issues](https://github.com/search?q=org%3AProxeusApp+type%3Aissue+label%3Anode&type=issues) to browse & submit bug reports.
+- Please make sure to review our Contributor's Guide in the docs if you would like to make technical improvements in Proxeus.
 
 # About us
 
@@ -17,4 +16,3 @@ The Proxeus Association is running various activities, such community outreach, 
 
 We are also setting up a new DAO to involve software users as well as the wider community in the governance of the association's activities. It may be possible to use tokens to vote for the development of specific new features in the future. For now we are coordinating the development work using open access platforms like GitHub.
 
-We are happy to answer your questions to the best of our knowledge in the forum, or by email to `association@proxeus.org`
